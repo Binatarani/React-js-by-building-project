@@ -1,10 +1,8 @@
-/* .heading {
-  margin-bottom: 35px;
+.section-heading {
   text-align: center;
-  margin-top: 35px !important;
 }
 
-.heading h3 {
+.section-heading h3 {
   font-size: 32px;
   text-align: center;
-} */
+}

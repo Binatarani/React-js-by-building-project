@@ -16,7 +16,7 @@ const AboutText = () => {
             </div>
           </Col>
           <Col lg={7}>
-            <div className="about-text">
+            <div className="about-text p-4">
               <h3>I'm Binata Rani</h3>
               <h2>About My Goal</h2>
               <p>

@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Blog from "./components/Blog/Blog";
-// import Login from "./components/Login/Login";
+import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

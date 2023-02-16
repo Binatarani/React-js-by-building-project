@@ -1,7 +1,12 @@
 import React from "react";
+import "./SectionHeading.css";
 
 const SectionHeading = (props) => {
-  return <h3 className="text-heading">{props.heading}</h3>;
+  return (
+    <section className="section-heading mb-4">
+      <h3>{props.heading}</h3>;
+    </section>
+  );
 };
 
 export default SectionHeading;
